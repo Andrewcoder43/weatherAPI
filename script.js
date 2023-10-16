@@ -39,7 +39,7 @@ function getInput() {
   xhr.send();
 }
 
-// xhr.addEventListener('readystatechange', function () {
+ xhr.addEventListener('readystatechange', function () {
 //   if (this.readyState === this.DONE) {
 //     // we need to loop through this info, I think, so that only what we want is displayed
 //     output.innerHTML += this.responseText;
